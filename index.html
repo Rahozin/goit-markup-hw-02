@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <style>
+      .visually-hidden {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -33,7 +47,7 @@
         <button type="button" class="hero-btn">Заказать услугу</button>
       </section>
       <section class="features">
-        <h2 class="features-title" hidden>Особенности</h2>
+        <h2 class="features-title visually-hidden">Особенности</h2>
         <ul class="features-list">
           <li class="features-item">
             <h3 class="features-item-title">Внимание к деталям</h3>
