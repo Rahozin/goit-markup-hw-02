@@ -106,7 +106,13 @@ header {
 .nav-link:hover,
 .nav-link:focus,
 .nav-contact:hover,
-.nav-contact:focus {
+.nav-contact:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+.current {
   color: var(--accent-color);
 }
 
